@@ -1,0 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main-box {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: -10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+.inner-box {
+  height: 70%;
+  width: 20%;
+  border-radius: 10px;
+  background-color: rgba(3, 3, 3, 0.75);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 68px 40px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.inner-box h1 {
+  color: rgb(177, 152, 10);
+  font-size: 37px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.email,
+.password {
+  margin-bottom: 5px;
+  height: 10%;
+  width: 90%;
+  padding: 0px 0px 16px;
+  margin-left: 0%;
+}
+
+.rem {
+  height: 20px;
+  width: 80%;
+  padding: 16px 30px 0px;
+  border-radius: 5px;
+  background-color: #333333;
+  border: none;
+  color: #fff;
+}
+input[type="text"] {
+  padding-bottom: 5%;
+  font-size: medium;
+}
+input[type="password"] {
+  padding-bottom: 5%;
+  font-size: medium;
+}
+.sign-in-button {
+  margin-top: 10%;
+  width: 90%;
+  height: 9%;
+}
+button {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(177, 152, 10);
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: none;
+}
+/* input[type="text" i] { */
+/* padding-block: 1px; */
+/* padding-block-start: 1px; */
+/* padding-block-end: 1px; */
+/* padding-inline: 2px; */
+/* padding-inline-start: 2px; */
+/* padding-inline-end: 2px; */
+/* } */
+.content {
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+}
+button:hover {
+  background-color: #333333;
+  color: rgb(177, 152, 10);
+  cursor: pointer;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  z-index: 5;
+  position: absolute;
+  background-image: url(https://w7.pngwing.com/pngs/405/743/png-transparent-popcorn-time-android-android-blue-android-software-development-kit.png);
+  background-size: contain;
+  /* position: static; */
+}
+.remeber {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  height: 5%;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.check-box {
+  /* height: 100%; */
+  height: 20px;
+  width: 20px;
+}
+.new {
+  width: 100%;
+  height: 7%;
+  margin-top: 15%;
+  font-size: large;
+  font-family: sans-serif;
+  color: #fff;
+}
+a {
+  font-weight: bolder;
+}
+footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 40px 0;
+  font-family: sans-serif;
+}
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #eaeaea;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  color: rgb(177, 152, 10);
+}
